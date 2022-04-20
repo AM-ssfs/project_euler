@@ -29,7 +29,7 @@ def somethingCrazy():
     for x in range(6):
         chairs.append("-")
 
-    for x in range(10):
+    for x in range(10): # THIS WILL BREAK LATER only placing 10
         randChair = random.randint(0, chairs.count("-"))
         tempChairs = chairs
 
